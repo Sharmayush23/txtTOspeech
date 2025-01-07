@@ -5,7 +5,7 @@ def text_to_speech(text):
     engine = pyttsx3.init()
 
     # Set properties, if needed (optional)
-    engine.setProperty('rate', 15)  # Speed of speech
+    engine.setProperty('rate', 10)  # Speed of speech
 
     # Convert the text to speech
     engine.say(text)
